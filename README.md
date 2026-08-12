@@ -30,6 +30,11 @@ Short version:
 2. Copy the whole `tabby-quick-cmds-lite` folder into `%APPDATA%\tabby\plugins\node_modules\`.
 3. Restart Tabby, then press `Alt + Q`.
 
+## Download
+Grab the latest release zip from [Releases](https://github.com/xyblue135/tabby-quick-cmds-lite/releases).
+It contains the ready-to-use `tabby-quick-cmds-lite` folder — just extract it into
+`%APPDATA%\tabby\plugins\node_modules\`. No build step needed.
+
 ## Build from source
 ```bash
 npm install          # installs TypeScript (peer deps are provided by Tabby at runtime)

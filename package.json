@@ -1,0 +1,37 @@
+{
+  "name": "tabby-quick-cmds-lite",
+  "version": "1.0.0",
+  "description": "Lightweight quick command manager for Tabby - optimized for large command collections (fork of tabby-quick-cmds)",
+  "homepage": "https://github.com/xyblue135/tabby-quick-cmds-lite",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xyblue135/tabby-quick-cmds-lite.git"
+  },
+  "keywords": [
+    "terminus-plugin",
+    "tabby-plugin",
+    "quick-commands",
+    "tabby"
+  ],
+  "main": "dist/index.js",
+  "author": "Lite refactor based on minyoad/tabby-quick-cmds",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "engines": {
+    "node": ">=14.0.0 <26.0.0"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=13.0.0",
+    "@angular/core": ">=13.0.0",
+    "@angular/forms": ">=13.0.0",
+    "@ng-bootstrap/ng-bootstrap": ">=12.0.0",
+    "tabby-core": ">=1.0.0",
+    "tabby-settings": ">=1.0.0",
+    "tabby-terminal": ">=1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
